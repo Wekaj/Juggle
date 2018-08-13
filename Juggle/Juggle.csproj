@@ -41,7 +41,20 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AnimatedSprite.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="Objects\Background.cs" />
+    <Compile Include="Objects\Blade.cs" />
+    <Compile Include="Objects\Boss1.cs" />
+    <Compile Include="Objects\Chain.cs" />
+    <Compile Include="Objects\Coin.cs" />
+    <Compile Include="Objects\Dust.cs" />
+    <Compile Include="Objects\Harpoon.cs" />
+    <Compile Include="Objects\Level.cs" />
+    <Compile Include="Objects\Platform.cs" />
+    <Compile Include="Objects\Player.cs" />
+    <Compile Include="Objects\Spikes.cs" />
+    <Compile Include="Objects\Spikes2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
